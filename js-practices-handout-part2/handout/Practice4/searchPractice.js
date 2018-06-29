@@ -8,7 +8,4 @@ function binarySearch(input, target) {
   return indexOf(target, input, input.length);  // Remove this line and change to your own algorithm
 }
 
-var a = [1, 2, 3, 4, 5, 6];
-console.log(binarySearch(a, 7));
-
 module.exports = binarySearch
